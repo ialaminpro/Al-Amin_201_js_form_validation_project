@@ -21,24 +21,8 @@
  
   width: 100%;
 }
-.regi_form input[name="username"] {
-  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;
-  border: medium none;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 18px;
-  height: 60px;
-  width: 100%;*/
-}
-.regi_form input[name="fname"] {
-  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;
-  border: medium none;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 18px;
-  height: 60px;
-  width: 100%;*/
-}
+
+
 .regi_form input[name="lname"],.regi_form input[name="fname"],.regi_form input[name="username"]{
   background: url("img/man.png") no-repeat scroll right center #c7c9be;
   /*border: medium none;*/
@@ -48,16 +32,7 @@
   height: 60px;
   width: 100%;
 }
-.regi_form input[name="lname"] {
-  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;
-  border: medium none;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 18px;
-  height: 60px;
-  padding-left: 10px;
-  width: 100%;*/
-}
+
 .regi_form input[type="email"]{
 	width: 100%;
 	background: url("img/email.png") no-repeat scroll right center #c7c9be;
