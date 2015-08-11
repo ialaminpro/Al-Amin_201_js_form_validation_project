@@ -1,81 +1,68 @@
-
-.regi_form{
-	background: #fff;
+.regi_form {
+    background: #fff;
     border: 1px solid black;
     padding: 5px;
     width: 35%;
-    
-	/*margin: 10px;
-	padding: 5px;
-    text-align: center;
-    width: 35%;
-    border: 5px solid black;*/
 }
 .regi_form input[type="text"] {
-  background:#c7c9be;
-  /*border: medium none;*/
-  border-radius: 5px;
-  color: #fff;
-  font-size: 18px;
-  height: 60px;
- 
-  width: 100%;
+    background: #c7c9be;
+    /*border: medium none;*/
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    height: 60px;
+    width: 100%;
 }
-
-
-.regi_form input[name="lname"],.regi_form input[name="fname"],.regi_form input[name="username"]{
-  background: url("img/man.png") no-repeat scroll right center #c7c9be;
-  /*border: medium none;*/
-  border-radius: 5px;
-  color: #fff;
-  font-size: 18px;
-  height: 60px;
-  width: 100%;
+.regi_form input[name="lname"],
+.regi_form input[name="fname"],
+.regi_form input[name="username"] {
+    background: url("img/man.png") no-repeat scroll right center #c7c9be;
+    height: 60px;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
 }
-
-.regi_form input[type="email"]{
-	width: 100%;
-	background: url("img/email.png") no-repeat scroll right center #c7c9be;
-	height: 60px;
-	font-size: 18px;
-	color: #FFF;
-	border: none;
-	border-radius: 5px;
-
+.regi_form input[type="email"] {
+    width: 100%;
+    background: url("img/email.png") no-repeat scroll right center #c7c9be;
+    height: 60px;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
 }
-
-.regi_form input[type="password"]{
-	width: 100%;
-	background: url("img/pass.png") no-repeat scroll right center #c7c9be;
-	height: 60px;
-	font-size: 18px;
-	color: #FFF;
-	border: none;
-	border-radius: 5px;
-
+.regi_form input[type="password"] {
+    width: 100%;
+    background: url("img/pass.png") no-repeat scroll right center #c7c9be;
+    height: 60px;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
 }
-.regi_form input[name="con_password"]{
-	width: 100%;
-	background: url("img/c-pass.png") no-repeat scroll right center #c7c9be;
-	height: 60px;
-	font-size: 18px;
-	color: #FFF;
-	border: none;
-	border-radius: 5px;
-
+.regi_form input[name="con_password"] {
+    width: 100%;
+    background: url("img/c-pass.png") no-repeat scroll right center #c7c9be;
+    height: 60px;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
 }
-.regi_form input[type="submit"]{
-	width: 80%;
-	background:#f76b1a;
-	height: 60px;
-	font-size: 18px;
-	color: #FFF;
-	border: none;
-	font-family: Verdana;
-	font-weight: bold;
-	margin-top: 40px;
+.regi_form input[type="submit"] {
+    width: 80%;
+    background: #f76b1a;
+    height: 60px;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    font-family: Verdana;
+    font-weight: bold;
+    margin: 40px;
 }
-.header{
+.header {
     text-align: center;
     font-size: 40px;
     width: 40%;
