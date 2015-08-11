@@ -1,15 +1,19 @@
 
 .regi_form{
 	background: #fff;
-	margin: 10px;
-	padding: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 35%;
+    
+	/*margin: 10px;
+	padding: 5px;
     text-align: center;
     width: 35%;
-    border: 5px solid black;
+    border: 5px solid black;*/
 }
 .regi_form input[type="text"] {
   background:#c7c9be;
-  border: medium none;
+  /*border: medium none;*/
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
@@ -18,26 +22,26 @@
   width: 100%;
 }
 .regi_form input[name="username"] {
-  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;*/
+  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;
   border: medium none;
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
   height: 60px;
-  width: 100%;
+  width: 100%;*/
 }
 .regi_form input[name="fname"] {
-  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;*/
+  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;
   border: medium none;
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
   height: 60px;
-  width: 100%;
+  width: 100%;*/
 }
 .regi_form input[name="lname"],.regi_form input[name="fname"],.regi_form input[name="username"]{
   background: url("img/man.png") no-repeat scroll right center #c7c9be;
-  border: medium none;
+  /*border: medium none;*/
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
@@ -83,6 +87,7 @@
 	color: #FFF;
 	border: none;
 	border-radius: 5px;
+
 }
 .regi_form input[type="submit"]{
 	width: 80%;
@@ -93,7 +98,6 @@
 	border: none;
 	font-family: Verdana;
 	font-weight: bold;
-	
 	margin-top: 40px;
 }
 .header{
