@@ -18,7 +18,7 @@
   width: 100%;
 }
 .regi_form input[name="username"] {
-  background: url("img/man.png") no-repeat scroll right center #c7c9be;
+  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;*/
   border: medium none;
   border-radius: 5px;
   color: #fff;
@@ -27,24 +27,32 @@
   width: 100%;
 }
 .regi_form input[name="fname"] {
+  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;*/
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  height: 60px;
+  width: 100%;
+}
+.regi_form input[name="lname"],.regi_form input[name="fname"],.regi_form input[name="username"]{
   background: url("img/man.png") no-repeat scroll right center #c7c9be;
   border: medium none;
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
   height: 60px;
-
   width: 100%;
 }
 .regi_form input[name="lname"] {
-  background: url("img/man.png") no-repeat scroll right center #c7c9be;
+  /*background: url("img/man.png") no-repeat scroll right center #c7c9be;
   border: medium none;
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
   height: 60px;
   padding-left: 10px;
-  width: 100%;
+  width: 100%;*/
 }
 .regi_form input[type="email"]{
 	width: 100%;
@@ -75,7 +83,6 @@
 	color: #FFF;
 	border: none;
 	border-radius: 5px;
-
 }
 .regi_form input[type="submit"]{
 	width: 80%;
