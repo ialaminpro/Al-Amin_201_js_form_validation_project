@@ -1,7 +1,5 @@
 .regi_form {
     background: #fff;
-    border: 1px solid black;
-    padding: 5px;
     width: 35%;
 }
 .regi_form input[type="text"] {
